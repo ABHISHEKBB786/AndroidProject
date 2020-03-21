@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lastfile">
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+
+        android:id="@+id/textView3"
+        android:textSize="20sp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="your complaint is registerd Successfully!"
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints">
+    </TextView>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/textView4"
+        android:textSize="20sp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:text="status of the registerd complaint and Admin page will be done within the next review meet....."
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints">
+    </TextView>
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="100dp"
+        android:background="@drawable/btneditstyle"
+        android:text="CLICK HERE TO MAIN MENU "
+        android:textColor="#000"
+        android:onClick="btn_back"
+        tools:ignore="MissingConstraints">
+    </Button>
+
+
+</RelativeLayout>

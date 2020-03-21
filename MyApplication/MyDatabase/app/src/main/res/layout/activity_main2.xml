@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cleaning"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HI WELCOME...! "
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Click here to Register"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="60dp">
+
+        </TextView>
+        <Button
+            android:id="@+id/sign"
+            android:onClick="btn_signform"
+            android:text="sign up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:background="@android:color/transparent"
+            tools:ignore="OnClick">
+
+
+        </Button>
+        <Button
+            android:id="@+id/adlog"
+            android:onClick="btn_adloginform"
+            android:text="ADMIN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="330dp"
+            android:textColor="#000000"
+            android:background="@android:color/transparent"
+            tools:ignore="OnClick">
+
+
+        </Button>
+
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an accoungt.....?"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="675dp">
+            </TextView>
+            <Button
+                android:id="@+id/log"
+                android:onClick="btn_loginform"
+                android:text="Login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="670dp"
+                android:layout_marginLeft="225dp"
+                android:textColor="#311818"
+                android:background="@android:color/transparent"
+                tools:ignore="OnClick">
+            </Button>
+
+            </RelativeLayout>
+
+    </RelativeLayout>

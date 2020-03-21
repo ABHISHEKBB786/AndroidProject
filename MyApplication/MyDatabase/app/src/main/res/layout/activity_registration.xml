@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bgg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:textColorHint="#fff"
+                    android:textSize="30sp"
+                    android:layout_margin="5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:text="SIGN UP FORM"
+                    android:textColor="#fff">
+                </TextView>
+
+
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/name"
+            android:textColorHint="#fff"
+            android:layout_width="300dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:hint="Name">
+        </EditText>
+
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/email"
+            android:textColorHint="#fff"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="Email-id"
+            android:inputType="textPersonName"
+            android:textColor="#fff">
+        </EditText>
+
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/phno"
+            android:textColorHint="#fff"
+            android:layout_marginTop="0dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="phone number"
+            android:inputType="textPersonName"
+            android:textColor="#fff">
+        </EditText>
+
+
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/pass"
+            android:textColorHint="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textColor="#fff"/>
+
+
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/cpass"
+            android:textColorHint="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="confirm password"
+            android:inputType="textPassword"
+            android:textColor="#fff"/>
+
+        <Button
+            android:layout_margin="20dp"
+            android:background="@drawable/btneditstyle"
+            android:id="@+id/btninser"
+            android:layout_width="match_parent"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="60dp"
+            android:textColor="#fff"
+            android:text="Sign Up ">
+        </Button>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="170dp"
+        android:id="@+id/progressBar"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:background="#000000"
+        android:clickable="true"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>
